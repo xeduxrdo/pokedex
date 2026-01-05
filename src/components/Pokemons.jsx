@@ -121,6 +121,7 @@ function Pokemons() {
           />
         </div>
       </form>
+      <h1 className='text-lg'>Pokedex</h1>
       {/* Pokémon list with dynamic limit */}
       <PokemonList
         pokemons={pokemonsByName.slice(0, limit)}
